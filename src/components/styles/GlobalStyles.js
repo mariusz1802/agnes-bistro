@@ -9,6 +9,11 @@ const GlobalStyle = createGlobalStyle`
     background-color: transparent;
 
   }
+
+  body{
+    background-color: white;
+    color: black;
+  }
 `
 
 export default GlobalStyle

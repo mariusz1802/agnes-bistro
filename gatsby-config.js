@@ -18,6 +18,8 @@ module.exports = {
     `gatsby-plugin-sharp`,
     "gatsby-theme-gallery",
     `gatsby-plugin-sass`,
+    "gatsby-plugin-theme-ui",
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -70,4 +72,9 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: "Agnes Bistro",
+    description: "Najlepsze dania, ciasta i torty",
+    copyright: "Bomba Web Design www.bombadesign.pl",
+  },
 }
