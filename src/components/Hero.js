@@ -26,9 +26,9 @@ export default Hero
 
 const HeroContainer = styled.div`
   height: 100vh;
-  width: 100%;
-`
-const Container = styled.div`
-  width: 100%;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 90%;
+  justify-items: center;
 `

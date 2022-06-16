@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link"
 import styled, { keyframes } from "styled-components"
 import { menuData } from "../data/MenuData"
 import GlobalStyle from "./styles/GlobalStyles"
-import BurgerMenu from "./BurgerMenu"
+import BurgerMenu from "./styles/BurgerMenu"
 import { BrowserRouter as Router } from "react-router-dom"
 
 function Header() {
@@ -33,6 +33,7 @@ export default Header
 const Title = styled.h2`
   font-family: "Oleo Script Swash Caps", cursive;
   color: #fff;
+  color: black;
   font-size: 2.7rem;
   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
     0px -4px 10px rgba(255, 255, 255, 0.3);
@@ -50,18 +51,20 @@ const Title = styled.h2`
 `
 
 const Nav = styled.nav`
-  height: 80px;
+  height: 90px;
   background-color: transparent;
   display: flex;
   justify-content: space-between;
   padding: 1rem calc((100vw - 1400px) / 2);
   z-index: 200;
+  background: white;
 
   position: relative;
 `
 
 const NavLink = styled(Link)`
   color: #fff;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,8 +74,8 @@ const NavLink = styled(Link)`
   justify-items: center;
   height: 100%;
   letter-spacing: 1px;
-  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
-    0px -4px 10px rgba(255, 255, 255, 0.3);
+  /* text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3); */
   font-weight: 400;
   cursor: pointer;
   /* adding style */
@@ -91,6 +94,7 @@ const NavLink = styled(Link)`
     width: 110px;
     height: 3px;
     background-color: #fff;
+    background-color: black;
   }
 `
 
