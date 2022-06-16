@@ -18,7 +18,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     "gatsby-theme-gallery",
     `gatsby-plugin-sass`,
-    "gatsby-plugin-theme-ui",
 
     {
       resolve: `gatsby-source-filesystem`,
