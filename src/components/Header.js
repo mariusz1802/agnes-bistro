@@ -57,9 +57,11 @@ const Nav = styled.nav`
   justify-content: space-between;
   padding: 1rem calc((100vw - 1400px) / 2);
   z-index: 200;
-  background: white;
-
+  background: rgba(255, 255, 255, 0.8);
   position: relative;
+  box-shadow: 2px 7px 5px rgba(0, 0, 0, 0.2),
+    0px -4px 10px rgba(255, 255, 255, 0.2);
+  z-index: 1;
 `
 
 const NavLink = styled(Link)`

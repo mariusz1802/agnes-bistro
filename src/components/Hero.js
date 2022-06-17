@@ -25,7 +25,7 @@ function Hero() {
 export default Hero
 
 const HeroContainer = styled.div`
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   justify-items: center;

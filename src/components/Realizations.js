@@ -6,7 +6,7 @@ import { Gallery } from "gatsby-theme-gallery"
 function Realizations() {
   return (
     <>
-      <SectionTitle title="REALIZACJE" id="gallery" />
+      <SectionTitle title="GALERIA" id="gallery" />
       <Layout>
         <Gallery galleryPath="content/gallery" />
       </Layout>

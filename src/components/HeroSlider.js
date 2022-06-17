@@ -21,16 +21,6 @@ function HeroSlider() {
           }
         }
       `)}
-      style={{
-        width: "95%",
-        textAlign: "center",
-        matignLeft: "auto",
-        marginRight: "auto",
-        backgroundPosition: "center",
-        alignItems: "center",
-        display: "flex",
-        justifySelf: "center",
-      }}
     />
   )
 }
