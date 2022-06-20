@@ -18,7 +18,13 @@ module.exports = {
     `gatsby-plugin-sharp`,
     "gatsby-theme-gallery",
     `gatsby-plugin-sass`,
-    `gatsby-plugin-theme-ui`,
+    {
+      resolve: "gatsby-plugin-theme-ui",
+      options: {
+        prismPreset: "night-owl",
+        preset: "@theme-ui/preset-funk",
+      },
+    },
 
     {
       resolve: `gatsby-source-filesystem`,
