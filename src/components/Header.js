@@ -1,7 +1,6 @@
 import React from "react"
-// import { Link } from "gatsby"
 import { HashLink as Link } from "react-router-hash-link"
-import styled, { keyframes } from "styled-components"
+import styled from "styled-components"
 import { menuData } from "../data/MenuData"
 import GlobalStyle from "./styles/GlobalStyles"
 import BurgerMenu from "./styles/BurgerMenu"

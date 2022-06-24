@@ -1,20 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import { Button } from "./Button"
-import { StaticImage } from "gatsby-plugin-image"
-import { gatsby, useStaticQuery, graphql } from "gatsby"
-import BackgroundSlider from "gatsby-image-background-slider"
 import HeroSlider from "./HeroSlider"
 
 function Hero() {
   return (
     <>
       <HeroContainer>
-        {/* <StaticImage
-          src="../assets/images/hero.jpg"
-          style={{ height: "100%", width: "100%" }}
-          imgStyle={{ objectFit: "cover" }}
-        /> */}
         <HeroSlider />
       </HeroContainer>
     </>

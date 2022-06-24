@@ -22,11 +22,7 @@ const Title = styled.div`
   font-weight: 300;
   margin: 0 20px;
   white-space: pre;
-  /* background: red; */
   width: 100%;
-  @media screen and (max-width: 770px) {
-    /* min-width: 210px; */
-  }
 `
 
 const SectionContainer = styled.div`
