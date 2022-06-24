@@ -13,8 +13,6 @@ import Contact from "../components/Contact"
 import ScrollUpBtn from "../components/ScrollUpBtn/ScrollUpBtn"
 import Footer from "../components/Footer"
 
-const isDocument = typeof document !== "undefined"
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
