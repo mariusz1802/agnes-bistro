@@ -1,5 +1,5 @@
 import React from "react"
-import Layout from "../components/layout"
+import layout from "../components/layout"
 import Seo from "../components/Seo"
 import Hero from "../components/Hero"
 import AboutMe from "../components/AboutMe"
@@ -9,7 +9,7 @@ import ScrollUpBtn from "../components/ScrollUpBtn/ScrollUpBtn"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
-  <Layout>
+  <layout>
     <Seo title="Home" />
     <Hero />
     <ScrollUpBtn />
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Realizations />
     <Contact />
     <Footer />
-  </Layout>
+  </layout>
 )
 
 export default IndexPage
