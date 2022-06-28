@@ -1,6 +1,6 @@
 import React from "react"
-import Layout from "../components/Layout"
-import SEO from "../components/Seo"
+import Layout from "../components/layout"
+import Seo from "../components/Seo"
 import Hero from "../components/Hero"
 import AboutMe from "../components/AboutMe"
 import Realizations from "../components/Realizations"
@@ -10,12 +10,12 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    {/* <SEO title="Home" />
+    <Seo title="Home" />
     <Hero />
     <ScrollUpBtn />
     <AboutMe />
     <Realizations />
-    <Contact /> */}
+    <Contact />
     <Footer />
   </Layout>
 )
